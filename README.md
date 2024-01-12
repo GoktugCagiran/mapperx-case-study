@@ -1,6 +1,6 @@
 # MapperxCaseStudy
 
-Written by: Göktuğ Çağıran
+Written by: Göktuğ Çağıran <br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
 ## Install Dependencies
