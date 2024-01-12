@@ -1,0 +1,30 @@
+<app-header></app-header>
+
+<div class="task-container">
+  <h2>Task Two</h2>
+  <br>
+  <h4>Raster Görüntü İşleme (.tif Ortomozaik):</h4>
+  <ul>
+    <li>.tif formatındaki bir ortomozaik görüntüyü harita üzerine yerleştirin. Görüntünün doğru coğrafi konumda ve
+      çözünürlükte olmasını sağlayın.</li>
+    <li>Harita üzerinde temel navigasyon kontrolleri (zoom in/out vb.) ve özelleştirilebilir arayüz elemanları
+      ekleyin.</li>
+  </ul>
+</div>
+
+<div class="flex-body">
+  <div class="map-container">
+    <div class="map-frame">
+      <div id="task-two-map"></div>
+    </div>
+  </div>
+  <div class="res-info-container">
+    <p>Current Resolution: {{currentRes}}</p>
+  </div>
+  <div class="res-info-container">
+    <button mat-raised-button color="primary" (click)="openChangeResDialog()">Change Raster Resolution</button>
+  </div>
+  <app-footer></app-footer>
+</div>
+
+

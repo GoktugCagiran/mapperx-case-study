@@ -1,0 +1,27 @@
+
+footer {
+  background-color: #ebebef;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tile-align-items{
+  align-items: flex-start;
+}
+
+.mat-grid-tile-content{
+  align-items: center!important;
+}

@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <ng-container *ngIf="!(isHandset$ | async); else mobileHeaderBlock">
+    <span [routerLink]="['/']">
+      MapperX Case Study
+    </span>
+    <span class="menu-spacer"></span>
+    <div class="top-menu-items">
+      <a mat-button [routerLink]="['/tasks/one']" routerLinkActive="router-link-active">Task 1</a>
+      <a mat-button [routerLink]="['/tasks/two']" routerLinkActive="router-link-active">Task 2</a>
+      <a mat-button [routerLink]="['/tasks/three']" routerLinkActive="router-link-active">Task 3</a>
+    </div>
+  </ng-container>
+
+</mat-toolbar>
+
+<ng-template #mobileHeaderBlock>
+  <button mat-icon-button aria-label="Menu Icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>MapperX Case Study</span>
+</ng-template>
